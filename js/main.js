@@ -15,7 +15,7 @@ elHeroForm.addEventListener("submit", function(evt){
 
     var elHeroInputValue = Number(elHeroInput.value);
 
-    if(elHeroInputValue % 3 == 0 & elHeroInputValue % 5 == 0){
+    if(elHeroInputValue % 3 == 0 && elHeroInputValue % 5 == 0){
         FizzBuzz.unshift(elHeroInputValue);
         Fizz.unshift(elHeroInputValue);
         Buzz.unshift(elHeroInputValue);
