@@ -1,0 +1,9 @@
+.hero-desc{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hero-arror-text{
+    font-size: 20px;
+}
